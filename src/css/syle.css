@@ -122,16 +122,16 @@ nav {
     font-weight: bold; 
 }
 
+.che {
+    margin-top: 20px;
+}
 
 .my_skills h3 {
     font-weight: bold;
     color: #cf7600;
 }
     
-}
-.che {
-    margin-top: 20px;
-}
+
 .my_skills h3{
     margin-top: 20px;
 }
@@ -165,24 +165,285 @@ nav {
 
 .case {
     float: left;
-    
+    width: 100%;
+    text-align: center;
 }
 
+.case h2 {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
 
-.statistics {
+.case #cher {
+    margin-top: 20px;
+}
+
+.case p{
+    margin-top: 30px;
+    color: #3f495a;
+}
+
+.case #case{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.site{
+    display: flex;
+}
+
+.site span {
+    display: block;
+    margin-top: 10px;
+    color: #3f495a;
+}
+
+.client{
+    width: 300px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.proj{
+    width: 50%;
+    text-align: left;
+
+}
+
+.sumb input{
+    float: left;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.site h3 {
+    color: #3f495a;
+    margin-top: 30px;
+    margin-right: 900px;
+    color: #3f495a;
+    font-weight: bold;    
+}
+.site p{
+    margin-top: 10px;
+    margin-right: 800px;
+}
+
+.site #cli{
+    margin-right: 850px;
+}
+.sale h2{
+    margin-top: 200px;
+}
+
+.sale h3{
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #1c2534;
+    margin-left: 300px;
+}
+
+.sale select{
+   border: 2px solid #eeeeee;
+    margin-top: 20px;
+    width: 750px;
+    height: 40px;
+    background: #eeeeee;
+    color: #737373;
+}
+
+.lin {
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 750px;
+    height: 2px;
+    background-color: #d1d1d1;
+}
+.sale p{
+     text-align: left;
+    margin-left: 300px;
+}
+
+.stat { 
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: url(../img/%D1%84%D0%BE%D0%BD1.jpg) bottom/cover;
+}
+
+.stat h2 {
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.stat h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #323e4f;
+}
+
+.stat span{
+    display: block;
+    margin-top: 20px;
+    color: #323e4f;
+    font-weight: bold;
+}
+
+.smile {
+     margin-top: 100px;
+    display: inline-block;
+    width: 300px;
+}
+
+.hou {
+     margin-top: 100px;
+    display: inline-block;
+    width: 300px;
+}
+
+.pro{
+     margin-top: 100px;
+    display: inline-block;
+    width: 300px;
+}
+
+.za{
+     margin-top: 100px;
+    display: inline-block;
+    width: 300px;
+}
+.stat #cher {
+    margin-top: 20px;
+}
+
+.rev {
     float: left;
     text-align: center;
-    margin-top: 400px;
 }
 
-.reviews {
-    float: left;
+.rev h2{
+    margin-top: 200px;
+     font-size: 30px;
+    font-weight: bold;
+}
+
+.rev #che{
+    margin-top: 20px;
+}
+
+.rev #fot{
+    margin-top: 50px;
+}
+
+.rev p{
+    color: #3f495a;
+}
+
+.rev #te{
+    border: 0px #fff;
+    margin: 20px 300px 20px 300px;
+}
+
+.but img{
+    margin: 20px 5px 0px 0px;
 }
 
 footer {
+    background: url(../img/%D0%A4%D0%BE%D0%BD2.jpg) center/cover no-repeat;
     float: left;
+    width: 100%;
+    text-align: center;
 }
 
-.map {
+footer h2{
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+footer #che {
+    margin-top: 20px;
+}
+
+footer p{
+    margin-top: 20px;
+    color: #FFF;
+}
+
+.geo{
+    margin-top: 20px;
     float: left;
+    margin-left: 400px;
+    display: inline-block;
+    width: 150px;
+}
+
+.mail {
+    margin-top: 20px;
+    float: left;
+    margin-left: 70px;
+    display: inline-block;
+    width: 100px;
+}
+
+.pho{
+    margin-top: 20px;
+    float: left;
+    margin-left: 70px;
+    display: inline-block;
+    width: 150px;
+}
+footer a{
+    color: #fff;
+}
+
+footer h3{
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer input{
+    margin-top: 10px;
+    border: 2px solid #d3d6dc;
+    background: #d3d6dc;
+    height: 30px;
+    width: 300px;
+}
+footer textarea{
+    margin-top: 10px;
+    border: 2px solid #d3d6dc;
+    background: #d3d6dc;
+    height: 100px;
+    width: 600px;
+}
+footer #but{
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px
+}
+footer #f {
+    float: left;
+    margin-left: 450px;
+    margin-top:30px;
+    margin-right: 30px;
+}
+
+.im img {
+    float: left;
+    margin: 30px 30px 0px 30px;
 }
