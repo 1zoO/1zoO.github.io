@@ -447,3 +447,7 @@ footer #f {
     float: left;
     margin: 30px 30px 0px 30px;
 }
+.map{
+    width: 100%;
+    float: left;
+}
