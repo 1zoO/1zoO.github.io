@@ -164,6 +164,7 @@ nav {
 }
 
 .case {
+    padding: 100px;
     float: left;
     width: 100%;
     text-align: center;
@@ -276,7 +277,8 @@ nav {
     float: left;
     width: 100%;
     text-align: center;
-    background: url(../img/%D1%84%D0%BE%D0%BD1.jpg) bottom/cover;
+    background: url(../img/%D1%84%D0%BE%D0%BD1.jpg) center/cover;
+    padding-bottom: 220px;
 }
 
 .stat h2 {
@@ -327,12 +329,14 @@ nav {
 }
 
 .rev {
+    padding-bottom: 120px;
     float: left;
     text-align: center;
+    
 }
 
 .rev h2{
-    margin-top: 200px;
+    margin-top: 100px;
      font-size: 30px;
     font-weight: bold;
 }
